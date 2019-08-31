@@ -1,9 +1,9 @@
 :root {
-  --dark-text: #141414;
-  --light-text: #eef0f2;
-  --main-color: #011638;
-  --active-color: #eec643;
-  --accent-color: #0d21a1;
+  --dark-text: #141414; /* - licorice */
+  --light-text: #eef0f2; /* anti-flash white */
+  --main-color: #011638; /* maastricht blue */
+  --active-color: #eec643; /* sandstorm */
+  --accent-color: #0d21a1; /* indigo dye */
 }
 
 body {
