@@ -62,9 +62,12 @@ body {
 
 #welcome-section {
   height: 100vh;
+  line-height: 100vh;
   margin: 0;
   padding: 0;
   background-color: var(--main-color);
+  color: var(--light-text);
+  text-align: center;
 }
 
 /* Project Section */
@@ -100,9 +103,31 @@ h3 {
   padding: 10px 0;
   cursor: pointer;
   margin-top: -7px;
+
+  transition: background 0.25s, color 0.25s;
 }
 
 .project-tile a:hover button {
   background: var(--active-color);
   color: var(--dark-text);
+}
+
+/* contact section */
+
+#contact {
+  background: var(--main-color);
+  color: var(--light-text);
+}
+
+#contact ul {
+  margin: 0;
+}
+
+#contact li {
+  display: inline-block;
+}
+
+.profile-link {
+  color: var(--light-text);
+  text-decoration: none;
 }
