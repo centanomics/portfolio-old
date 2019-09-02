@@ -100,6 +100,8 @@ h3 {
   padding: 10px 0;
   cursor: pointer;
   margin-top: -7px;
+
+  transition: background 0.25s, color 0.25s;
 }
 
 .project-tile a:hover button {
