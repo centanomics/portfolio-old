@@ -1,0 +1,24 @@
+@import '_variables.scss';
+@import '_header.scss';
+@import '_welcome';
+@import '_projects';
+@import '_contact';
+
+h1 {
+  font-size: 4rem;
+  padding: 1.5rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  padding: 0.75rem;
+}
+
+a {
+  font-family: sans-serif;
+}
+
+h1,
+h3 {
+  text-align: center;
+}
