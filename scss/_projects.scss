@@ -1,0 +1,41 @@
+/* Project Section */
+
+h1,
+h3 {
+  text-align: center;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.project-tile {
+  max-width: 500px;
+  margin: 32px;
+  background-color: $accent-color;
+  padding: 16px;
+  color: $light-text;
+}
+
+.project-tile img {
+  width: 100%;
+}
+
+.project-tile button {
+  background: $main-color;
+  color: $light-text;
+  border: none;
+  width: 100%;
+  padding: 10px 0;
+  cursor: pointer;
+  margin-top: -7px;
+
+  transition: background 0.25s, color 0.25s;
+}
+
+.project-tile a:hover button {
+  background: $active-color;
+  color: $dark-text;
+}

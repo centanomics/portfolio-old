@@ -1,25 +1,15 @@
-:root {
-  --dark-text: #141414;
-  /* - licorice */
-  --light-text: #eef0f2;
-  /* anti-flash white */
-  --main-color: #011638;
-  /* maastricht blue */
-  --active-color: #eec643;
-  /* sandstorm */
-  --accent-color: #0d21a1;
-  /* indigo dye */ }
-
-body {
-  margin: 0; }
-
+/* - licorice */
+/* anti-flash white */
+/* maastricht blue */
+/* sandstorm */
+/* indigo dye */
 #navbar {
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
-  color: var(--light-text);
-  background-color: var(--main-color);
+  color: #eef0f2;
+  background-color: #011638;
   display: flex;
   justify-content: space-between;
   padding: 10px 100px;
@@ -30,13 +20,13 @@ body {
   padding: 16px; }
 
 #navbar a {
-  color: var(--light-text);
+  color: #eef0f2;
   text-decoration: none;
   font-size: 24px;
   padding: 16px; }
 
 #navbar a:hover {
-  border-bottom: 3px solid var(--active-color); }
+  border-bottom: 3px solid #eec643; }
 
 @media (max-width: 720px) {
   #navbar {
@@ -56,8 +46,8 @@ body {
   line-height: 100vh;
   margin: 0;
   padding: 0;
-  background-color: var(--main-color);
-  color: var(--light-text);
+  background-color: #011638;
+  color: #eef0f2;
   text-align: center; }
 
 /* Project Section */
@@ -73,16 +63,16 @@ h3 {
 .project-tile {
   max-width: 500px;
   margin: 32px;
-  background-color: var(--accent-color);
+  background-color: #0d21a1;
   padding: 16px;
-  color: var(--light-text); }
+  color: #eef0f2; }
 
 .project-tile img {
   width: 100%; }
 
 .project-tile button {
-  background: var(--main-color);
-  color: var(--light-text);
+  background: #011638;
+  color: #eef0f2;
   border: none;
   width: 100%;
   padding: 10px 0;
@@ -91,13 +81,13 @@ h3 {
   transition: background 0.25s, color 0.25s; }
 
 .project-tile a:hover button {
-  background: var(--active-color);
-  color: var(--dark-text); }
+  background: #eec643;
+  color: #141414; }
 
 /* contact section */
 #contact {
-  background: var(--main-color);
-  color: var(--light-text); }
+  background: #011638;
+  color: #eef0f2; }
 
 #contact ul {
   margin: 0; }
@@ -106,5 +96,5 @@ h3 {
   display: inline-block; }
 
 .profile-link {
-  color: var(--light-text);
+  color: #eef0f2;
   text-decoration: none; }

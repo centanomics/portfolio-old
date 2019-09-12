@@ -1,0 +1,19 @@
+/* contact section */
+
+#contact {
+  background: $main-color;
+  color: $light-text;
+}
+
+#contact ul {
+  margin: 0;
+}
+
+#contact li {
+  display: inline-block;
+}
+
+.profile-link {
+  color: $light-text;
+  text-decoration: none;
+}

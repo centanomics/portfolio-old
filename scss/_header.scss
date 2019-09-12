@@ -1,0 +1,49 @@
+#navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  color: $light-text;
+  background-color: $main-color;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 100px;
+  align-items: center;
+}
+
+#navbar li {
+  display: inline-block;
+  padding: 16px;
+}
+
+#navbar a {
+  color: $light-text;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 16px;
+}
+
+#navbar a:hover {
+  border-bottom: 3px solid $active-color;
+}
+
+@media (max-width: 720px) {
+  #navbar {
+    position: static;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #welcome-section h1 {
+    margin: 0;
+  }
+
+  #navbar ul {
+    padding: 0;
+  }
+  #navbar li {
+    display: block;
+    text-align: center;
+  }
+}
