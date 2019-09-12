@@ -14,32 +14,26 @@
   justify-content: space-between;
   padding: 10px 100px;
   align-items: center; }
-
-#navbar li {
-  display: inline-block;
-  padding: 16px; }
-
-#navbar a {
-  color: #eef0f2;
-  text-decoration: none;
-  font-size: 24px;
-  padding: 16px; }
-
-#navbar a:hover {
-  border-bottom: 3px solid #eec643; }
-
-@media (max-width: 720px) {
-  #navbar {
-    position: static;
-    flex-direction: column;
-    justify-content: center; }
-  #welcome-section h1 {
-    margin: 0; }
-  #navbar ul {
-    padding: 0; }
   #navbar li {
-    display: block;
-    text-align: center; } }
+    display: inline-block;
+    padding: 16px; }
+  #navbar a {
+    color: #eef0f2;
+    text-decoration: none;
+    font-size: 24px;
+    padding: 16px; }
+    #navbar a:hover {
+      border-bottom: 3px solid #eec643; }
+  @media screen and (max-width: 720px) {
+    #navbar {
+      position: static;
+      flex-direction: column;
+      justify-content: center; }
+      #navbar ul {
+        padding: 0; }
+      #navbar li {
+        display: block;
+        text-align: center; } }
 
 #welcome-section {
   height: 100vh;
@@ -49,12 +43,11 @@
   background-color: #011638;
   color: #eef0f2;
   text-align: center; }
+  @media screen and (max-width: 720px) {
+    #welcome-section h1 {
+      margin: 0; } }
 
 /* Project Section */
-h1,
-h3 {
-  text-align: center; }
-
 .projects {
   display: flex;
   flex-wrap: wrap;
@@ -66,35 +59,33 @@ h3 {
   background-color: #0d21a1;
   padding: 16px;
   color: #eef0f2; }
-
-.project-tile img {
-  width: 100%; }
-
-.project-tile button {
-  background: #011638;
-  color: #eef0f2;
-  border: none;
-  width: 100%;
-  padding: 10px 0;
-  cursor: pointer;
-  margin-top: -7px;
-  transition: background 0.25s, color 0.25s; }
-
-.project-tile a:hover button {
-  background: #eec643;
-  color: #141414; }
+  .project-tile img {
+    width: 100%; }
+  .project-tile button {
+    background: #011638;
+    color: #eef0f2;
+    border: none;
+    width: 100%;
+    padding: 10px 0;
+    cursor: pointer;
+    margin-top: -7px;
+    transition: background 0.25s, color 0.25s; }
+  .project-tile a:hover button {
+    background: #eec643;
+    color: #141414; }
 
 /* contact section */
 #contact {
   background: #011638;
   color: #eef0f2; }
+  #contact ul {
+    margin: 0; }
+  #contact li {
+    display: inline-block; }
+  #contact .profile-link {
+    color: #eef0f2;
+    text-decoration: none; }
 
-#contact ul {
-  margin: 0; }
-
-#contact li {
-  display: inline-block; }
-
-.profile-link {
-  color: #eef0f2;
-  text-decoration: none; }
+h1,
+h3 {
+  text-align: center; }

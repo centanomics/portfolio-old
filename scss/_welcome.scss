@@ -6,4 +6,10 @@
   background-color: $main-color;
   color: $light-text;
   text-align: center;
+
+  @media screen and (max-width: $small-break) {
+    h1 {
+      margin: 0;
+    }
+  }
 }
