@@ -13,6 +13,13 @@
   padding: 16px;
   color: $light-text;
 
+  div {
+    padding: 16px 8px;
+    margin-bottom: 16px;
+    border-top: 2px solid $light-text;
+    border-bottom: 2px solid $light-text;
+  }
+
   img {
     width: 100%;
   }
