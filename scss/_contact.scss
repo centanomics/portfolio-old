@@ -1,0 +1,35 @@
+/* contact section */
+
+#contact {
+  background: $main-color;
+  color: $light-text;
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  li {
+    display: inline-block;
+    padding: 1rem;
+  }
+
+  .profile-link {
+    color: $light-text;
+    text-decoration: none;
+    transition: all 0.15s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.5rem;
+
+    &:hover {
+      color: $active-color;
+    }
+
+    i {
+      padding-bottom: 0.5rem;
+    }
+  }
+}
